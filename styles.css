@@ -151,6 +151,72 @@ main h1 {
   background-color: rgb(221, 134, 34);
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+  width: 10rem;
+  display: flex;
+  text-decoration: none;
+}
+
+.logo > img {
+  height: 35px;
+}
+
+.logo-txt {
+  padding-left: 7px;
+  display: flex;
+  flex-direction: column;
+  color: #eeeeee;
+  align-items: flex-start;
+}
+
+.logo-img {
+  width: 2rem;
+  margin-right: 3px;
+}
+
+.logo-txt h1,
+.logo-txt span {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 4px;
+}
+
+.logo-txt h1 {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin-top: 2px;
+  color: #eeeeee;
+}
+
+.logo-txt span {
+  font-weight: lighter;
+  font-size: 0.85rem;
+}
+::-webkit-scrollbar {
+  height: 9px;
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  width: 9px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
 @media (max-width: 48rem) {
   #main-header nav {
     display: none;
