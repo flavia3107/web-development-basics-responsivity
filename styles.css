@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  background-color: rgb(44, 41, 38);
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 a {
@@ -9,19 +9,10 @@ a {
 }
 
 #main-header {
-  height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(29, 26, 24);
-  padding: 0 5%;
-}
-
-#logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: rgb(238, 164, 80);
-  text-transform: uppercase;
+  padding: 1rem;
 }
 
 .menu-btn {
@@ -51,12 +42,12 @@ a {
 }
 
 #main-header nav a {
-  color: rgb(185, 131, 31);
+  color: #343536;
   font-size: 1.25rem;
 }
 
 #main-header nav a:hover {
-  color: rgb(228, 163, 44);
+  color: #000;
 }
 
 #side-drawer {
@@ -101,7 +92,7 @@ a {
 
 main h1 {
   text-align: center;
-  color: rgb(238, 164, 80);
+  color: #373c47;
   font-size: 3rem;
 }
 
@@ -120,13 +111,13 @@ main h1 {
 }
 
 .food-item {
-  background-color: rgb(228, 206, 182);
   border-radius: 6px;
   overflow: hidden;
+  box-shadow: 3px 3px 10px rgb(201, 200, 200);
 }
 
 .food-item img {
-  height: 15rem;
+  height: 30rem;
   width: 100%;
   object-fit: cover;
 }
@@ -141,14 +132,14 @@ main h1 {
 }
 
 .btn {
-  background-color: rgb(228, 157, 44);
+  background-color: #343536;
   color: white;
   border-radius: 4px;
   padding: 0.5rem 1.5rem;
 }
 
 .btn:hover {
-  background-color: rgb(221, 134, 34);
+  background-color: #000;
 }
 
 .logo:hover {
@@ -170,7 +161,7 @@ main h1 {
   padding-left: 7px;
   display: flex;
   flex-direction: column;
-  color: #eeeeee;
+  color: #272722;
   align-items: flex-start;
 }
 
@@ -191,7 +182,7 @@ main h1 {
   font-weight: bolder;
   font-size: 1.1rem;
   margin-top: 2px;
-  color: #eeeeee;
+  color: #272722;
 }
 
 .logo-txt span {
